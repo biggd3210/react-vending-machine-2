@@ -1,0 +1,22 @@
+{
+    "coke" : {
+        "name" : "coke",
+        "img_url" : "/images/coke_img.jpeg"
+    },
+    "takis" : {
+        "name" : "takis",
+        "img_url" : "/images/takis_img.png"
+    },
+    "snickers" : {
+        "name" : "snickers",
+        "img_url" : "/images/snickers_img.jpeg"
+    },
+    "doritos" : {
+        "name" : "doritos",
+        "img_url" : "/images/doritos_img.png"
+    },
+    "arizona" : {
+        "name" : "arizona",
+        "img_url" : "/images/arizona.jpeg"
+    }
+}

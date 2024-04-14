@@ -1,0 +1,47 @@
+.VendingMachine {
+    text-align: center;
+    background-image: url('/public/images/BL3_Claptrap.webp');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headline h1 {
+    padding: 1rem;
+    background-color: rgba(169,169,169,0.5);
+    border-radius: 1rem;
+    background-size: cover;
+    width: 70%;
+    margin: auto;
+}
+
+
+.links h2 {
+    padding: 1rem;
+    background-color: rgba(169,169,169,0.5);
+    border-radius: 1rem;
+    background-size: fill;
+    display: inline-flex;
+    margin: 1rem 2rem;
+}
+
+a {
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgba(169,169,169,0.5);
+}
+
+.links h2:hover > a {
+    background-color: rgb(54,54,54);
+    color:rgba(169,169,169,0.5)
+}
+
+.links h2:hover {
+    background-color: rgb(54,54,54);
+    color:rgba(169,169,169,0.5)
+}
