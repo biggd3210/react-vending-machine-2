@@ -1,16 +1,11 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Snack.css';
 
 function Snack({ snack }) {
     const { name, img_url } = snack
-    const url = window.location.origin;
-    let location = useLocation()
-    console.log("location is ", location);
-    console.log("url is ", url);
-    console.log("process URL is ", process.env.PUBLIC_URL)
-
-    //const url = `./images/${}`
+    //const url = window.location.origin;
+    
     return (
         <div className="Snack"
             style={{ backgroundImage: `url(${img_url})`}}    
